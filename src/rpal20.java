@@ -2,12 +2,12 @@ import ast.AST;
 import csem.*;
 import scanner.*;
 import parser.*;
-
+//aaa
 import java.io.IOException;
 
 public class rpal20 {
   public static void main(String[] args) throws Exception {
-    String fileName = args[0];
+    String file = args[0];
     AST ast = null;
 
     try {
